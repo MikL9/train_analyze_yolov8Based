@@ -1,0 +1,1 @@
+yolo task=detect mode=train model=yolov8n.pt imgsz=1280 data={configYamlName} epochs=50 batch=8 name={mName}
